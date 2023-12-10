@@ -3,3 +3,5 @@ export class DispositivosIoT {
     tipo: string = ''; //lampadas/sensores/cameras 
     comunicação: string = ''; //chip/sensor/antena/rastreador
 }
+
+//teste de git
