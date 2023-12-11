@@ -4,4 +4,4 @@ export class DispositivosIoT {
     comunicação: string = ''; //chip/sensor/antena/rastreador
 }
 
-//teste de git
+//teste de git 3
