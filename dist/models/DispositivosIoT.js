@@ -9,4 +9,3 @@ class DispositivosIoT {
     }
 }
 exports.DispositivosIoT = DispositivosIoT;
-//teste de git 2
