@@ -12,8 +12,7 @@ export class variaveis extends SistemaControle {
         this.saida = saida;
         this.processo = processo;
         this.controlador = controlador;
-        this.sensor = sensor;
-        
+        this.setSensor(sensor);
     }
 
     falar(){

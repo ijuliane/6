@@ -1,8 +1,10 @@
 //classe pai
+//utilizando o conceito de encapsulamento no Sensor com PRIVATE
+
 export class SistemaControle {
     processo?: string = 'resfriamento'; //resfriamento de uma placa
     controlador?: string = ''; //arduino
-    sensor?: string = ''; //sensor ultrassonico e temp
+    private sensor?: string = ''; //sensor ultrassonico e temp
 
     constructor (processo: string, controlador: string, sensor: string){
         this.processo = processo;
@@ -14,5 +16,12 @@ export class SistemaControle {
         console.log('Sistemas de Controle');
     }
 
+    getSensor(){
+        return this.sensor
+    }
+
+    setSensor(sensor:string){
+        this.sensor = sensor;
+    }
 }
 

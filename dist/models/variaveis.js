@@ -13,7 +13,7 @@ class variaveis extends SistemaControle_1.SistemaControle {
         this.saida = saida;
         this.processo = processo;
         this.controlador = controlador;
-        this.sensor = sensor;
+        this.setSensor(sensor);
     }
     falar() {
         console.log('Variaveis do sistema');
