@@ -1,3 +1,4 @@
+//classe pai
 export class SistemaControle {
     processo?: string = 'resfriamento'; //resfriamento de uma placa
     controlador?: string = ''; //arduino
@@ -8,4 +9,10 @@ export class SistemaControle {
         this.controlador = controlador;
         this.sensor = sensor;
     }
+    
+    falar(){
+        console.log('Sistemas de Controle');
+    }
+
 }
+

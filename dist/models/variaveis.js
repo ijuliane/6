@@ -15,5 +15,8 @@ class variaveis extends SistemaControle_1.SistemaControle {
         this.controlador = controlador;
         this.sensor = sensor;
     }
+    falar() {
+        console.log('Variaveis do sistema');
+    }
 }
 exports.variaveis = variaveis;

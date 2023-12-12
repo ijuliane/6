@@ -15,4 +15,8 @@ export class variaveis extends SistemaControle {
         this.sensor = sensor;
         
     }
+
+    falar(){
+        console.log('Variaveis do sistema');
+    }
 }
